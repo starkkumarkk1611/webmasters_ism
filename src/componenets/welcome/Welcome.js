@@ -42,38 +42,38 @@ var quickLinksArr = [
 function Welcome() {
   return (
     <Container style={{ height: "fit-content" }}>
-        <Row>
-          <Col sm={12} lg={6} >
+      <Row>
+        <Col sm={12} lg={6} >
           <div className="quickLinks">
-                <h3 className="head_ql">Quick Links</h3>
-                <ul className="ql">
-                  {quickLinksArr.map((ql, index) => {
-                    return (
-                      <li className="ql-li">
-                        <FaGreaterThan />
-                        <a href="#"> {ql}</a>
-                      </li>
-                    )
-                  })}
-                </ul>
-              </div>
-          </Col>
-          <Col sm={12} lg={6}>
+            <h3 className="head_ql">Quick Links</h3>
+            <ul className="ql">
+              {quickLinksArr.map((ql, index) => {
+                return (
+                  <li className="ql-li" key={`quicklink-${index}`}>
+                    <FaGreaterThan />
+                    <a href="#"> {ql}</a>
+                  </li>
+                )
+              })}
+            </ul>
+          </div>
+        </Col>
+        <Col sm={12} lg={6}>
           <div className="quickLinks">
-                <h3 className="head_ql">Quick Links</h3>
-                <ul className="ql">
-                  {quickLinksArr.map((ql, index) => {
-                    return (
-                      <li className="ql-li">
-                      <FaGreaterThan />
-                        <a href="#"> {ql}</a>
-                      </li>
-                    )
-                  })}
-                </ul>
-              </div>
-          </Col>
-        </Row>
+            <h3 className="head_ql">Quick Links</h3>
+            <ul className="ql">
+              {quickLinksArr.map((ql, index) => {
+                return (
+                  <li className="ql-li" key={`quicklink2-${index}`} >
+                    <FaGreaterThan />
+                    <a href="#"> {ql}</a>
+                  </li>
+                )
+              })}
+            </ul>
+          </div>
+        </Col>
+      </Row>
     </Container>
   );
 }

@@ -70,7 +70,7 @@ export default function InitiativesPage() {
                 />
                 <img
                   className="options"
-                  id="options1"
+                  id="options2"
                   src={InitiativesImage2}
                   alt="First slide"
                   style={{
@@ -81,7 +81,7 @@ export default function InitiativesPage() {
                 />
                 <img
                   className="options"
-                  id="options1"
+                  id="options3"
                   src={InitiativesImage3}
                   alt="First slide"
                   style={{
@@ -191,7 +191,7 @@ export default function InitiativesPage() {
           <div className="initiative-card">
             <img
               className="options"
-              id="options1"
+              id="options2"
               src={InitiativesImage5}
               alt="First slide"
               style={{
@@ -205,7 +205,7 @@ export default function InitiativesPage() {
           <div className="initiative-card">
             <img
               className="options"
-              id="options1"
+              id="options3"
               src={InitiativesImage6}
               alt="First slide"
               style={{
