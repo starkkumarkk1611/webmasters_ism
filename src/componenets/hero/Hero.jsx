@@ -36,12 +36,12 @@ const Hero = () => {
             className="d-block w-100"
             src={imgscr}
             alt="First slide"
-            style={{ maxHeight: "70vh" }}
+            style={{ maxHeight: "60vh" }}
           />
-          <Carousel.Caption>
+          {/* <Carousel.Caption>
             <h3>{title}</h3>
             <p>{desc}</p>
-          </Carousel.Caption>
+          </Carousel.Caption> */}
         </Carousel.Item>
       ))}
     </Carousel>

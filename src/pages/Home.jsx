@@ -11,6 +11,7 @@ import Leadership from "./leadership/Leadership";
 import Bureas from "./bureas/Bureas";
 import About from "./aboutUs/History";
 import Initiative from "../componenets/Initiative/Initiative";
+import Search from "./Search/Search";
 // import MultipleCarousel from "../componenets/MultipleCarousel/MultipleCarousel";
 const Home = () => {
   // const barbara = {
@@ -23,8 +24,6 @@ const Home = () => {
       <NavBar navItems={MainMenu} />
       <Hero />
       <Welcome />
-      {/* <MultipleCarousel /> */}
-      {/* <Gallary /> */}
       <Eminent />
       <Initiative />
       <Footer />

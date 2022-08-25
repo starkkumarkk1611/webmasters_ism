@@ -1,0 +1,40 @@
+.searchDiv{
+    text-align: center;
+}
+.searchDiv2{
+    /* width: 80%; */
+}
+.searchInput{
+    border-radius: 10px;
+    width: 60%;
+}
+.searchImg{
+    width: 100%;
+}
+.cardSearch{
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    margin: 5vw 0;
+    box-shadow: 0 0 20px rgba(176, 176, 176, 0.2);
+    border-radius: 5px;
+    text-align: left;
+}
+.btnSearch{
+    align-items: flex-end;
+    width: fit-content;
+    right: 2vw;
+    bottom: 20px;
+    background-color: #fff;
+    border: 1px solid #F75700;
+    color: #F75700;
+    border-radius: 5px;
+    position: absolute;
+}
+.pad{
+    margin-left: 20px;
+    margin-top: 20px;
+}
+.pad1{
+    color: #02428C;
+}
