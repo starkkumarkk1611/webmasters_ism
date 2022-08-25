@@ -1,0 +1,36 @@
+{
+  "topbar": {
+    "screenrederaccess": "ஸ்கிரீன் ரீடர் அணுகல்",
+    "textsize": "உரை அளவு",
+    "webloginportal": "வலை உள்நுழைவு போர்டல்"
+  },
+  "allindiacouncilfortechnicaleducation": "தொழில்நுட்ப கல்விக்கான அகில இந்திய கவுன்சில்",
+  "helplinenumber": "1800 12345",
+  "navbar": {
+    "aboutus": "எங்களைப் பற்றி",
+    "newsroom": "செய்தி அறை",
+    "bureaus": "பீரோக்கள்",
+    "initiative": "முயற்சி",
+    "schemes": "திட்டங்கள்",
+    "education": "கல்வி",
+    "statistics": "புள்ளிவிவரங்கள்",
+    "bulletins": "புல்லட்டின்"
+  },
+  "welcometoaicte": "AICTEக்கு வரவேற்கிறோம்",
+  "welcomedescription": "தொழில்நுட்பக் கல்விக்கான வசதிகள் குறித்து கணக்கெடுப்பு நடத்துவதற்கும், நாட்டின் வளர்ச்சியை ஒருங்கிணைத்து மேம்படுத்துவதற்கும், அகில இந்திய தொழில்நுட்பக் கல்வி கவுன்சில் (ஏஐசிடிஇ) நவம்பர் 1945 இல் தேசிய அளவிலான உச்ச ஆலோசனைக் குழுவாக அமைக்கப்பட்டது. ஒருங்கிணைந்த முறையில்.",
+  "pdgmstudentverification": "PDGM மாணவர் சரிபார்ப்பு",
+  "approvalprocess2022-23": "ஒப்புதல் செயல்முறை 2022-23",
+  "centralizedsupportsystem": "மையப்படுத்தப்பட்ட ஆதரவு அமைப்பு",
+  "quicklins": {
+    "quicklinks": "விரைவு இணைப்புகள்",
+    "studentlearningassessmentsparakh": "மாணவர் கற்றல் மதிப்பீடு-PARAKH",
+    "approvalprocess2022": "ஒப்புதல் செயல்முறை 2022-23",
+    "odlandonlineRegulatoryframework": "ODL மற்றும் ஆன்லைன் ஒழுங்குமுறை கட்டமைப்பு",
+    "pmsssjandk": "PMSSS ஜே&கே",
+    "policiesandreforms": "கொள்கைகள் மற்றும் சீர்திருத்தங்கள்",
+    "fsd-siwebportal": "FDP-SI வலை போர்டல்",
+    "aictefitindiachallenge": "AICTE FIT இந்தியா சவால்",
+    "aictekarma": "AICTE கர்மா",
+    "academicaladersconclave": "கல்வித் தலைவர்கள் மாநாடு"
+  }
+}

@@ -1,5 +1,5 @@
 const MainMenu = [{
-    label: "ABOUT US",
+    labellngkey: "aboutus",
     to: "/about-us",
     dropDownItems: [
         {
@@ -9,8 +9,8 @@ const MainMenu = [{
             to: "/about-us/overview",
         },
         {
-            label: "Overview",
-            desc: "Read about apex body of techincal education in India",
+            label: "Leadership Team",
+            desc: "Learn about the team that make it out",
             href: null,
             to: "overview",
         },
@@ -35,7 +35,7 @@ const MainMenu = [{
     ],
 },
 {
-    label: "NEWSROOM",
+    labellngkey: "newsroom",
     to: "/news-room",
     dropDownItems: [
         {
@@ -71,7 +71,8 @@ const MainMenu = [{
     ],
 },
 {
-    label: "BUREAUS",
+    labellngkey: "bureaus",
+
     to: "/bureas",
     dropDownItems: [
         {
@@ -107,7 +108,8 @@ const MainMenu = [{
     ],
 },
 {
-    label: "INITIATIVE",
+
+    labellngkey: "initiative",
     to: "/initiative",
     dropDownItems: [
         {
@@ -143,7 +145,7 @@ const MainMenu = [{
     ],
 },
 {
-    label: "SCHEMES",
+    labellngkey: "schemes",
     to: "/schemes",
     dropDownItems: [
         {
@@ -179,7 +181,7 @@ const MainMenu = [{
     ],
 },
 {
-    label: "EDUCATION",
+    labellngkey: "education",
     to: "/education",
     dropDownItems: [
         {
@@ -215,7 +217,7 @@ const MainMenu = [{
     ],
 },
 {
-    label: "STATISTICS",
+    labellngkey: "statistics",
     to: "/statistics",
     dropDownItems: [
         {
@@ -251,7 +253,7 @@ const MainMenu = [{
     ],
 },
 {
-    label: "BULLETINS",
+    labellngkey: "bulletins",
     to: "/bulletins",
     dropDownItems: [
         {

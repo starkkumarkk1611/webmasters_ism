@@ -8,16 +8,22 @@ import Signup from "./signup";
 
 import Hero from "../componenets/hero/Hero";
 import MainMenu from "../utils/CONSTANTS/NavMenuData";
+import Eminent from "../componenets/Eminent/Eminent";
+import Initiatives from "./initiatives/Initiatives";
+import Leadership from "./leadership/Leadership";
+import Bureas from "./bureas/Bureas";
+import About from "./aboutUs/History";
+import Initiative from "../componenets/Initiative/Initiative";
+// import MultipleCarousel from "../componenets/MultipleCarousel/MultipleCarousel";
 const Home = () => {
 
   return (
     <div>
       <NavBar navItems={MainMenu} />
       <Hero />
-      {/* <Welcome /> */}
-      {/* <Bureaus />  */}
+      <Welcome />
 
-      {/* <Gallary /> */}
+      <Gallary />
       <Footer />
      {/* <Signup />   */}
     </div>

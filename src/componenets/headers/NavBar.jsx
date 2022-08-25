@@ -1,10 +1,14 @@
 import React, { useRef, useEffect, useState } from "react";
 import "./NavBar.css";
 import { AiFillHome } from "react-icons/ai";
+
 import { BsChevronCompactDown } from "react-icons/bs";
 import { Link } from "react-router-dom";
 import MainMenu from "../../utils/CONSTANTS/NavMenuData";
+import { useTranslation } from "react-i18next";
+
 const NavBar = ({ navItems = MainMenu }) => {
+  const { t } = useTranslation(["home"]);
   const navBarRef = useRef(null);
   const [dropDownTop, setDropDownTop] = useState("12em");
   const handleDropDownToggle = (el) => {
@@ -36,14 +40,16 @@ const NavBar = ({ navItems = MainMenu }) => {
           <span> </span>
         </div>
       </div>
-      {navItems.map(({ label, dropDownItems }, index) => (
+      {navItems.map(({ labellngkey, dropDownItems }, index) => (
         <div
           className="nav-items d-flex align-items-center"
           key={index}
           onMouseOver={handleDropDownToggle}
         >
           <div className="d-flex align-items-center">
-            <p className="d-flex align-items-center m-0">{label}</p>
+            <p className="d-flex align-items-center m-0">
+              {t(`navbar.${labellngkey}`)}
+            </p>
             <BsChevronCompactDown size={20} className="carret mx-1" />
           </div>
           <div
@@ -54,10 +60,12 @@ const NavBar = ({ navItems = MainMenu }) => {
             {dropDownItems.map(({ label, desc, href, to }, index) => (
               <Link
                 to="/about-us/overview"
-                className="p-2 mb-2 drop-down-items"
+                className="p-2 mb-2 drop-down-items text-decoration-none"
                 key={index}
               >
-                <div style={{ textAlign: "left" }}>{label}</div>
+                <div style={{ textAlign: "left" }} className="label_navlink">
+                  {label}
+                </div>
                 <div className="small">{desc}</div>
               </Link>
             ))}

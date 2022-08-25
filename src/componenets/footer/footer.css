@@ -1,7 +1,7 @@
 .site-footer
 {
   background-color:#02428C;
-  padding:45px 0 20px;
+  padding:45px 0 0;
   font-size:15px;
   line-height:24px;
   color:#fff;
@@ -13,7 +13,7 @@
 }
 .row{
     justify-content: center;
-    align-items: center;
+    align-items: top;
 }
 .site-footer hr.small
 {
