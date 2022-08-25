@@ -1,6 +1,7 @@
 import React, { useRef, useEffect, useState } from "react";
 import "./NavBar.css";
 import { AiFillHome } from "react-icons/ai";
+
 import { BsChevronCompactDown } from "react-icons/bs";
 import { Link } from "react-router-dom";
 import MainMenu from "../../utils/CONSTANTS/NavMenuData";
@@ -43,7 +44,7 @@ const NavBar = ({ navItems = MainMenu }) => {
           onMouseOver={handleDropDownToggle}
         >
           <div className="d-flex align-items-center">
-            <p className="d-flex align-items-center m-0">{label}</p>
+            <p className="d-flex align-items-center m-0 label ">{label}</p>
             <BsChevronCompactDown size={20} className="carret mx-1" />
           </div>
           <div
@@ -54,10 +55,12 @@ const NavBar = ({ navItems = MainMenu }) => {
             {dropDownItems.map(({ label, desc, href, to }, index) => (
               <Link
                 to="/about-us/overview"
-                className="p-2 mb-2 drop-down-items"
+                className="p-2 mb-2 drop-down-items text-decoration-none"
                 key={index}
               >
-                <div style={{ textAlign: "left" }}>{label}</div>
+                <div style={{ textAlign: "left" }} className="label_navlink">
+                  {label}
+                </div>
                 <div className="small">{desc}</div>
               </Link>
             ))}

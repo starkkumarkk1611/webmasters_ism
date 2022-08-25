@@ -1,3 +1,6 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@300;500&display=swap');
+
+
 .nav-bar{
     background-color: #F75700;
     color: white;
@@ -5,11 +8,12 @@
     flex-wrap: wrap;
     margin: 0;
     padding: 0;
+    font-family: 'Roboto', sans-serif;
     /* position: absolute; */
 }
 .nav-items{
     padding:0.9em 1em;
-    font-weight: 600;
+    font-weight: 500;
     height: 100%;
     margin: 0;
     /* border: 2px solid black; */
@@ -37,3 +41,7 @@
     color: white;
 }
 
+.label_navlink {
+    
+   
+}

@@ -9,8 +9,8 @@ const MainMenu = [{
             to: "/about-us/overview",
         },
         {
-            label: "Overview",
-            desc: "Read about apex body of techincal education in India",
+            label: "Leadership Team",
+            desc: "Learn about the team that make it out",
             href: null,
             to: "overview",
         },
