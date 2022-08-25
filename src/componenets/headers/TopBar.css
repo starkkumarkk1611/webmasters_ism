@@ -1,0 +1,15 @@
+.top-bar{
+    border-bottom: 1px solid #707070;
+    display: flex;
+    flex-wrap: wrap;
+    color: #707070;
+    padding: 6px;
+    font-size: small;
+}
+#top-nav-login{
+    background-color: #F75700;
+    border: none;
+    padding: 6px;
+    color: white;
+    border-radius: 6px;
+}

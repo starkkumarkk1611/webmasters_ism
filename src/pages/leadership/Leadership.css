@@ -1,0 +1,17 @@
+.leadership-section{
+    padding: 2rem 4rem;
+    text-align: center;
+}
+.name-grid{
+    display: flex;
+    padding: 2rem 0;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+.top-names{
+    background-color: #02428C;
+}
+positions{
+    padding-top: 2rem;
+    color: #02428C;
+}

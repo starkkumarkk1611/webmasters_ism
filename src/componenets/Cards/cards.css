@@ -1,0 +1,123 @@
+.card{
+    display: flex;
+    /* width: 30%; */
+    min-height: 33rem;
+}
+
+
+.card-title{
+    background-color: darkblue;
+    color: #fff;
+    padding: 1rem ;
+ 
+    
+}
+
+.card_header{
+position: relative;
+
+}
+.card_header::after {
+    display: block;
+    content: '';
+    width: 30%;
+    height: 3px;
+    background: blue;
+    position: absolute;
+    bottom: 0;
+    left: 1rem;
+    
+}
+
+
+.heading{
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    font-weight: 600;
+    padding: 1rem;
+   
+}
+
+.card-text{
+    font-weight: 100;
+    font-size: 1rem;
+    padding: 1rem;
+    text-align: justify;
+}
+
+.learn_more{
+    position: relative;
+    bottom: 0;
+    text-decoration: none;
+    padding: 1rem;
+}
+.card_image{
+    display: block;
+    height: 10rem;
+}
+.card_image:hover{
+    cursor: pointer;
+    background-color: rgb(35, 29, 20);
+}
+
+
+/* leader Card */
+
+/* Lazy Load Styles */
+.leader-card-image {
+    display: block;
+    min-height: 20rem;
+    /* layout hack */
+    background: #fff center center no-repeat;
+    background-size: cover;
+    /* filter: blur(3px); blur the lowres image */
+}
+
+.leader-card-image>img {
+    display: block;
+    width: 100%;
+    opacity: 0;
+    /* visually hide the img element */
+}
+
+.leader-card-image.is-loaded {
+    filter: none;
+    /* remove the blur on fullres image */
+    transition: filter 1s;
+}
+
+
+
+
+
+
+.leader-card {
+    display: inline-block;
+    width: 90%;
+    max-width: 20rem;
+    margin: 1rem;
+    font-size: 1rem;
+    text-decoration: none;
+    overflow: hidden;
+    box-shadow: 0 0 3rem -1rem rgba(0, 0, 0, 0.5);
+    transition: transform 0.1s ease-in-out, box-shadow 0.1s;
+}
+
+.leader-card:hover {
+    transform: translateY(-0.5rem) scale(1.0125);
+    box-shadow: 0 0.5em 3rem -1rem rgba(0, 0, 0, 0.5);
+}
+
+.leader-card-description {
+    display: block;
+    padding: 1em 0.5em;
+    color: #515151;
+    text-decoration: none;
+}
+
+.leader-card-description>h2 {
+    margin: 0 0 0.5em;
+}
+
+.leader-card-description>p {
+    margin: 0;
+}

@@ -1,0 +1,22 @@
+hr{
+    width: 10vw;
+    color: #02428C;
+}
+.gallary{
+    width: 90%;
+    aspect-ratio: 1.7/1;
+    margin: auto;
+    color: white;
+}
+.bg_img{
+    background-image: url(../Gallary/Homi\ Jehangir\ Bhabha\ 1.png);
+    background-size: cover;
+    background-repeat: no-repeat;
+    width: 100%;
+    aspect-ratio : 1 / 1;
+}
+.pic{
+    background: #F75700;
+    text-align: center;
+    width: 60%;
+}

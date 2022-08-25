@@ -1,0 +1,19 @@
+#main-header{
+    display: flex;
+    flex-wrap: wrap;
+}
+.main-logo{
+    color: #02428C;
+}
+.vertical-main-bar{
+    border-left: 2px solid #02428C;
+    height: 2.2rem;
+    margin-right: 10px;
+}
+.vertical-bar{
+    border-left: 1px solid #545454;
+    height: 30px;
+    width: 0;
+    padding: 0;
+    margin:0.5rem 1rem;
+}

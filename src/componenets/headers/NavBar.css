@@ -1,0 +1,39 @@
+.nav-bar{
+    background-color: #F75700;
+    color: white;
+    display: flex;
+    flex-wrap: wrap;
+    margin: 0;
+    padding: 0;
+    /* position: absolute; */
+}
+.nav-items{
+    padding:0.9em 1em;
+    font-weight: 600;
+    height: 100%;
+    margin: 0;
+    /* border: 2px solid black; */
+}
+.carret{
+    transform: rotate(180deg);
+}
+.nav-items:hover .carret{
+    transform: rotate(0deg);
+
+}
+.nav-items:hover .dropDown{
+    display: flex;
+}
+.dropDown{
+    position: absolute;
+    display: none;
+    flex-direction: column;
+    color: black;
+    overflow: auto;
+    background-color: white;
+}
+.dropDown .drop-down-items:hover{
+    background-color: #F75700;
+    color: white;
+}
+

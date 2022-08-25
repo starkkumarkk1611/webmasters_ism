@@ -1,0 +1,28 @@
+const AicteCellsData = [
+    { label: "ATAL Academy", href: null, to: "atal" },
+    { label: "e-governance", href: null, to: "bureaus/e-governance" },
+    { label: "NEAT", href: null, to: "bureaus/neat" },
+    { label: "PMSSS (for J&K Students)", href: null, to: "bureaus/jk" },
+    { label: "Innocation", href: "https://mic.gov.in/mic", to: null },
+    { label: "Indian Knowlegde System", href: "https://iksindia.org", to: null },
+    { label: "ATAL Academy", href: null, to: "atal" },
+    { label: "e-governance", href: null, to: "bureaus/e-governance" },
+    { label: "NEAT", href: null, to: "bureaus/neat" },
+    { label: "PMSSS (for J&K Students)", href: null, to: "bureaus/jk" },
+    { label: "Innocation", href: "https://mic.gov.in/mic", to: null },
+    { label: "Indian Knowlegde System", href: "https://iksindia.org", to: null },
+    { label: "ATAL Academy", href: null, to: "atal" },
+    { label: "e-governance", href: null, to: "bureaus/e-governance" },
+    { label: "NEAT", href: null, to: "bureaus/neat" },
+    { label: "PMSSS (for J&K Students)", href: null, to: "bureaus/jk" },
+    { label: "Innocation", href: "https://mic.gov.in/mic", to: null },
+    { label: "Indian Knowlegde System", href: "https://iksindia.org", to: null },
+    { label: "ATAL Academy", href: null, to: "atal" },
+    { label: "e-governance", href: null, to: "bureaus/e-governance" },
+    { label: "NEAT", href: null, to: "bureaus/neat" },
+    { label: "PMSSS (for J&K Students)", href: null, to: "bureaus/jk" },
+    { label: "Innocation", href: "https://mic.gov.in/mic", to: null },
+    { label: "Indian Knowlegde System", href: "https://iksindia.org", to: null },
+
+];
+export default AicteCellsData;
