@@ -1,0 +1,36 @@
+{
+  "topbar": {
+    "screenrederaccess": "स्क्रीन रीडर एक्सेस",
+    "textsize": "पाठ का आकार",
+    "webloginportal": "वेब लॉगिन पोर्टल"
+  },
+  "allindiacouncilfortechnicaleducation": "अखिल भारतीय तकनीकी शिक्षा परिषद",
+  "helplinenumber": "1800 12345",
+  "navbar": {
+    "aboutus": "हमारे बारे में",
+    "newsroom": "न्यूज़ रूम",
+    "bureaus": "ब्यूरो",
+    "initiative": "पहल",
+    "schemes": "योजनाएं",
+    "education": "शिक्षा",
+    "statistics": "सांख्यिकी",
+    "bulletins": "बुलेटिन"
+  },
+  "welcometoaicte": "AICTE में आपका स्वागत है",
+  "welcomedescription": "अखिल भारतीय तकनीकी शिक्षा परिषद (एआईसीटीई) की स्थापना नवंबर 1945 में एक राष्ट्रीय स्तर के शीर्ष सलाहकार निकाय के रूप में की गई थी, जो तकनीकी शिक्षा के लिए उपलब्ध सुविधाओं पर एक सर्वेक्षण करने और देश में विकास को बढ़ावा देने के लिए एक समन्वित और एकीकृत तरीके से।",
+  "pdgmstudentverification": "PDGM छात्र सत्यापन",
+  "approvalprocess2022-23": "अनुमोदन प्रक्रिया 2022-23",
+  "centralizedsupportsystem": "केंद्रीकृत समर्थन प्रणाली",
+  "quicklins": {
+    "quicklinks": "क्विक लिंक्स",
+    "studentlearningassesmentsparakh": "स्टूडेंट लर्निंग असेसमेंट-पारख",
+    "approvalprocess2022": "अनुमोदन प्रक्रिया 2022-23",
+    "odlandonlineRegulatoryframework": "ODL और ऑनलाइन नियामक ढांचा",
+    "pmsssjandk": "पीएमएसएसएस जम्मू-कश्मीर",
+    "policiesandreforms": "नीतियां और सुधार",
+    "fsd-siwebportal": "FDP-SI वेब पोर्टल",
+    "aictefitindiachallenge": "AICTE FIT India Challenge",
+    "aictekarma": "एआईसीटीई कर्म",
+    "academicleadersconclave": "एकेडमिक लीडर्स कॉन्क्लेव"
+  }
+}

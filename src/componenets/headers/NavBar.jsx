@@ -5,7 +5,10 @@ import { AiFillHome } from "react-icons/ai";
 import { BsChevronCompactDown } from "react-icons/bs";
 import { Link } from "react-router-dom";
 import MainMenu from "../../utils/CONSTANTS/NavMenuData";
+import { useTranslation } from "react-i18next";
+
 const NavBar = ({ navItems = MainMenu }) => {
+  const { t } = useTranslation(["home"]);
   const navBarRef = useRef(null);
   const [dropDownTop, setDropDownTop] = useState("12em");
   const handleDropDownToggle = (el) => {
@@ -37,14 +40,16 @@ const NavBar = ({ navItems = MainMenu }) => {
           <span> </span>
         </div>
       </div>
-      {navItems.map(({ label, dropDownItems }, index) => (
+      {navItems.map(({ labellngkey, dropDownItems }, index) => (
         <div
           className="nav-items d-flex align-items-center"
           key={index}
           onMouseOver={handleDropDownToggle}
         >
           <div className="d-flex align-items-center">
-            <p className="d-flex align-items-center m-0 label ">{label}</p>
+            <p className="d-flex align-items-center m-0">
+              {t(`navbar.${labellngkey}`)}
+            </p>
             <BsChevronCompactDown size={20} className="carret mx-1" />
           </div>
           <div
