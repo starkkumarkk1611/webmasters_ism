@@ -1,10 +1,9 @@
 .quickLinks{
-    margin: 1vw auto;
+    margin: auto;
     width: 60%;
     height: fit-content;
-    background-color: white;  
-    box-shadow: 0 0 20px rgba(247, 247, 247, 2);
-    color: #02428C;
+    background-color: #02428C;
+    color: white;
     border-radius: 5px;
 }
 .welcome{
@@ -40,5 +39,6 @@
         margin: auto;
         width: 60%;
         height: fit-content;
+        background-color: #02428C;
     }
   }

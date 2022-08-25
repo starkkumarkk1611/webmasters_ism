@@ -1,0 +1,37 @@
+{
+  "topbar": {
+    "screenrederaccess": "Screen Reader Access",
+    "textsize": "Text Size",
+    "webloginportal": "Web Login Portal"
+  },
+
+  "allindiacouncilfortechnicaleducation": "All India Council for Technical Education",
+  "helplinenumber": "1800 12345",
+  "navbar": {
+    "aboutus": "About Us",
+    "newsroom": "News Room",
+    "bureaus": "Bureaus",
+    "initiative": "Initiative",
+    "schemes": "Schemes",
+    "education": "Education",
+    "statistics": "Statistics",
+    "bulletins": "Bulletins"
+  },
+  "welcometoaicte": "Welcome to AICTE",
+  "welcomedescription": "All India Council for Technical Education (AICTE) was set up in November 1945 as a national-level Apex Advisory Body to conduct a survey on the facilities available for technical education and to promote development in the country in a coordinated and integrated manner.",
+  "pdgmstudentverification": "PDGM Student Verification",
+  "approvalprocess2022-23": "Approval Process 2022-23",
+  "centralizedsupportsystem": "Centrailzed Support System",
+  "quicklinks": {
+    "quicklinks": "Quick Links",
+    "studentlearningassesmentsparakh": "Student Learning Assessment-PARAKH",
+    "approvalprocess2022": "Approval Process 2022-23",
+    "odlandonlineRegulatoryframework": "ODL and Online Regulatory Framework",
+    "pmsssjandk": "PMSSS J&K",
+    "policiesandreforms": "Policies & Reforms",
+    "fsd-siwebportal": "FDP-SI Web portal",
+    "aictefitindiachallenge": "AICTE FIT India Challenge",
+    "aictekarma": "AICTE KARMA",
+    "academicleadersconclave": "Academic Leaders' Conclave"
+  }
+}
