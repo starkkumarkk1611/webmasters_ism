@@ -4,6 +4,7 @@ import { FaUserAlt } from "react-icons/fa";
 import { GrLanguage } from "react-icons/gr";
 import i18next from "i18next";
 import { useTranslation } from "react-i18next";
+import DropdownMenu from "./DropdownMenu";
 
 import "./TopBar.css";
 const TopBar = () => {
@@ -49,6 +50,7 @@ const TopBar = () => {
         <label htmlFor="lang">
           <GrLanguage size={20} />
         </label>
+        <DropdownMenu />
         <select name="lang" id="lang" onChange={handleLngCng}>
           <option value="en">English</option>
           <option value="hi">Hindi</option>

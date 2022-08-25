@@ -1,0 +1,24 @@
+.vl {
+    border-left: 6px solid green;
+    height: 60px;
+  }
+
+.flx{
+    display: flex;
+}
+.flxCol{
+    margin-left: 10px;
+    flex-direction: column;
+}
+.btnFlx{
+    position: absolute;
+    right: 0;
+    align-self: flex-end;
+}
+.card-title{
+    background-color: white;
+    color: #02428C;
+}
+.hFlx{
+    margin-left: 3vw;
+}

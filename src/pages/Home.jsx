@@ -11,6 +11,7 @@ import Leadership from "./leadership/Leadership";
 import Bureas from "./bureas/Bureas";
 import About from "./aboutUs/History";
 import Initiative from "../componenets/Initiative/Initiative";
+import Analytics from "../componenets/analytics/Analytics";
 import Search from "./Search/Search";
 // import MultipleCarousel from "../componenets/MultipleCarousel/MultipleCarousel";
 const Home = () => {
@@ -21,12 +22,13 @@ const Home = () => {
   // };
   return (
     <div>
-      <NavBar navItems={MainMenu} />
+    <Analytics />
+      {/* <NavBar navItems={MainMenu} />
       <Hero />
       <Welcome />
       <Eminent />
       <Initiative />
-      <Footer />
+      <Footer /> */}
     </div>
   );
 };
