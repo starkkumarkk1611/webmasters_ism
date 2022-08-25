@@ -3,6 +3,10 @@ import Row from "react-bootstrap/Row";
 import Col from "react-bootstrap/Col";
 import Button from "react-bootstrap/Button";
 import "./welcome.css";
+import Cards from "../../componenets/Cards/BureauCard";
+import pmssLogo from "../../assets/welcome/Mask group.png";
+import pgdmLogo from "../../assets/welcome/Rectangle 1993.png";
+import centerLogo from "../../assets/welcome/Rectangle 1996.png";
 import React, { useEffect, useState } from "react";
 
 const useDeviceDetect = () => {
@@ -23,162 +27,52 @@ const useDeviceDetect = () => {
 function ResponsiveAutoExample() {
   return (
     <Container style={{ height: "fit-content" }}>
-      {!useDeviceDetect() ? (
-        <Row>
-          <Col sm={7}>
-            <h2 className="welcome">Welcome to AICTE</h2>
-            <p>
-              All India Council for Technical Education (AICTE) was set up in
-              November 1945 as a national-level Apex Advisory Body to conduct a
-              survey on the facilities available for technical education and to
-              promote development in the country in a coordinated and integrated
-              manner.
-            </p>
-            <Button
-              style={{ marginTop: "5vh", marginRight: "10px" }}
-              variant="primary"
-            >
-              PGDM Student Verification
-            </Button>
-            <Button
-              style={{ marginTop: "5vh", marginRight: "10px" }}
-              variant="primary"
-            >
-              Approval process 2022-23
-            </Button>
-            <Button style={{ marginTop: "5vh" }} variant="primary">
-              Centralized Support System
-            </Button>
-          </Col>
-          <Col sm={5}>
-            <div className="quickLinks">
-            <h3 className="head_ql">Quick Links</h3>
-              <ul className="ql">
-                <li className="ql-li">
-                  <a href="" />
-                  Student Learning Assessment-PARAKH|
-                </li>
-                <li>
-                  <a href="" />
-                  Student Learning Assessment-PARAKH|
-                </li>
-                <li>
-                  <a href="" />
-                  Approval Process 2022-23
-                </li>
-                <li>
-                  <a href="" />
-                  ODL and Online Regulatory Framework|
-                </li>
-                <li>
-                  <a href="" />
-                  PMSSS J&K|
-                </li>
-                <li>
-                  <a href="" />
-                  Policies & Reforms|
-                </li>
-                <li>
-                  <a href="" />
-                  FDP-SI Web portal
-                </li>
-                <li>
-                  <a href="" />
-                  AICTE FIT India Challenge
-                </li>
-                <li>
-                  <a href="" />
-                  AICTE KARMA
-                </li>
-                <li>
-                  <a href="" />
-                  Academic Leaders' Conclave
-                </li>
-              </ul>
-            </div>
-          </Col>
-        </Row>
-      ) : (
-        <>
-          <Row>
-            <Col sm={12}>
-              <h2 className="welcome">Welcome to AICTE</h2>
-              <p>
-                All India Council for Technical Education (AICTE) was set up in
-                November 1945 as a national-level Apex Advisory Body to conduct
-                a survey on the facilities available for technical education and
-                to promote development in the country in a coordinated and
-                integrated manner.
-              </p>
-              <Button
-                style={{ marginTop: "5vh", marginRight: "10px" }}
-                variant="primary"
-              >
-                PGDM Student Verification
-              </Button>
-              <Button
-                style={{ marginTop: "5vh", marginRight: "10px" }}
-                variant="primary"
-              >
-                Approval process 2022-23
-              </Button>
-              <Button style={{ marginTop: "5vh" }} variant="primary">
-                Centralized Support System
-              </Button>
-            </Col>
-          </Row>
-          <Row style={{marginTop:"30px"}}>
-            <Col sm={12}>
-              <div className="quickLinks">
-              <h3 className="head_ql">Quick Links</h3>
-              <ul className="ql">
-                <li className="ql-li">
-                  <a href="" />
-                  Student Learning Assessment-PARAKH|
-                </li>
-                <li>
-                  <a href="" />
-                  Student Learning Assessment-PARAKH|
-                </li>
-                <li>
-                  <a href="" />
-                  Approval Process 2022-23
-                </li>
-                <li>
-                  <a href="" />
-                  ODL and Online Regulatory Framework|
-                </li>
-                <li>
-                  <a href="" />
-                  PMSSS J&K|
-                </li>
-                <li>
-                  <a href="" />
-                  Policies & Reforms|
-                </li>
-                <li>
-                  <a href="" />
-                  FDP-SI Web portal
-                </li>
-                <li>
-                  <a href="" />
-                  AICTE FIT India Challenge
-                </li>
-                <li>
-                  <a href="" />
-                  AICTE KARMA
-                </li>
-                <li>
-                  <a href="" />
-                  Academic Leaders' Conclave
-                </li>
-              </ul>
-              </div>
-            </Col>
-          </Row>
-        </>
-      )}
+
+        <Row style={{marginTop:"0px"}}>
+        <Col md={4} >
+          <div className="quickLinks">
+          <h3 className="head_ql">Welcome to AICTE</h3>
+          <p className="ql">
+               All India Council for Technical Education (AICTE) was set up in
+               November 1945 as a national-level Apex Advisory Body to conduct a
+               survey on the facilities available for technical education and to
+               promote development in the country in a coordinated and integrated
+               manner.
+           </p>
+         
+          </div>
+         
+        </Col>
+        <Col sm={2}>
+          <div className="quickLinks1" style={{ backgroundcolor: "white" }}>
+          <img src={ pmssLogo} alt="aictelogo" className="imglogo"/>
+          <h3 className="head_ql">PMSSS Registration</h3> 
+          </div>
+         
+        </Col>
+        <Col sm={2}>
+          <div className="quickLinks1">
+          <img src={  pmssLogo } alt="aictelogo"  className="imglogo" />
+          <h3 className="head_ql">PGDM Student Verification</h3>
+          
+         
+          </div>
+         
+        </Col>
+        <Col sm={2}>
+          <div className="quickLinks1">
+          <img src={ pmssLogo} alt="aictelogo"  className="imglogo"/>
+          <h3 className="head_ql">Centralized Support System</h3>
+         
+          </div>
+         
+        </Col>
+        
+      </Row>
+
+
     </Container>
+    
   );
 }
 

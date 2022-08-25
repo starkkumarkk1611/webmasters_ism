@@ -1,10 +1,12 @@
 .quickLinks{
-    margin: auto;
-    width: 60%;
+    position:absolute;
+    top: 600px;
+    width: 20%;
     height: fit-content;
     background-color: #02428C;
     color: white;
-    border-radius: 5px;
+    border-radius: none;
+    margin-left:0px;
 }
 .welcome{
     padding-bottom: 10vh;
@@ -24,17 +26,27 @@
 .head_ql{
     text-align: center;
     padding-top: 10px;
+    font-family: Roboto,sans-serif;
+    font-size: 20px;
 }
-@media only screen and (max-width: 1200px) {
-    .quickLinks{
-        width: 70%;
-    }
-  }
-@media only screen and (max-width: 900px) {
-    .quickLinks{
-        margin: auto;
-        width: 60%;
-        height: fit-content;
-        background-color: #02428C;
-    }
-  }
+
+  .quickLinks1{
+    margin: 20px;
+    width: fit-content;
+    height: 180px;
+    background-color: white;
+    color: black;
+    border-radius: none;
+    margin-left:0px;
+   
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.25);
+
+}
+.imglogo{
+    position:relative;
+    margin-top: 10px;
+    margin-left:70px;
+    width: 50px;
+    height:50px;
+  
+}
