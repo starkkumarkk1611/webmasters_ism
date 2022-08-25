@@ -22,13 +22,13 @@ const Home = () => {
   // };
   return (
     <div>
-    <Analytics />
-      {/* <NavBar navItems={MainMenu} />
+    {/* <Analytics /> */}
+      <NavBar navItems={MainMenu} />
       <Hero />
       <Welcome />
       <Eminent />
       <Initiative />
-      <Footer /> */}
+      <Footer />
     </div>
   );
 };
