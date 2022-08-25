@@ -1,0 +1,37 @@
+{
+  "topbar": {
+    "screenrederaccess": "স্ক্রিন রিডার অ্যাক্সেস",
+    "textsize": "পাঠ্যের আকার",
+    "webloginportal": "ওয়েব লগইন পোর্টাল"
+  },
+
+  "allindiacouncilfortechnicaleducation": "অল ইন্ডিয়া কাউন্সিল ফর টেকনিক্যাল এডুকেশন",
+  "helplinenumber": "1800 12345",
+  "navbar": {
+    "aboutus": "আমাদের সম্পর্কে",
+    "newsroom": "নিউজ রুম",
+    "bureaus": "ব্যুরো",
+    "initiative": "উদ্যোগ",
+    "schemes": "স্কিম",
+    "education": "শিক্ষা",
+    "statistics": "পরিসংখ্যান",
+    "bulletins": "বুলেটিনস"
+  },
+  "welcometoaicte": "AICTE তে স্বাগতম",
+  "welcomedescription": "অল ইন্ডিয়া কাউন্সিল ফর টেকনিক্যাল এডুকেশন (AICTE) 1945 সালের নভেম্বরে কারিগরি শিক্ষার জন্য উপলব্ধ সুযোগ-সুবিধাগুলির উপর একটি সমীক্ষা চালানোর জন্য এবং সমন্বিতভাবে দেশে উন্নয়নের প্রচার করার জন্য একটি জাতীয় স্তরের শীর্ষ উপদেষ্টা সংস্থা হিসাবে প্রতিষ্ঠিত হয়েছিল। সমন্বিত পদ্ধতি।",
+  "pdgmstudentverification": "PDGM ছাত্র যাচাইকরণ",
+  "approvalprocess2022-23": "অনুমোদন প্রক্রিয়া 2022-23",
+  "centralizedsupportsystem": "সেন্ট্রালাইজড সাপোর্ট সিস্টেম",
+  "quicklins": {
+    "quicklinks": "দ্রুত লিঙ্ক",
+    "studentlearningassesmentsparakh": "স্টুডেন্ট লার্নিং অ্যাসেসমেন্ট-পারখ",
+    "approvalprocess2022": "অনুমোদন প্রক্রিয়া 2022-23",
+    "odlandonlineRegulatoryframework": "ODL এবং অনলাইন রেগুলেটরি ফ্রেমওয়ার্ক",
+    "pmsssjandk": "PMSSS J&K",
+    "policiesandreforms": "নীতি ও সংস্কার",
+    "fsd-siwebportal": "FDP-SI ওয়েব পোর্টাল",
+    "aictefitindiachallenge": "AICTE FIT ইন্ডিয়া চ্যালেঞ্জ",
+    "aictekarma": "AICTE কর্ম",
+    "academicleadersconclave": "একাডেমিক লিডারস কনক্লেভ"
+  }
+}
