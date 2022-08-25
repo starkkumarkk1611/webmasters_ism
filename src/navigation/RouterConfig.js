@@ -6,7 +6,7 @@ import History from "../pages/aboutUs/History";
 import Messages from "../pages/Messages";
 import Leadership from "../pages/leadership/Leadership";
 import InitiativesPage from "../pages/initiatives/Initiatives";
-import LoginForm from "../componenets/VirtualKeyBoards/LoginForm";
+import LoginForm from "../componenets/login/LoginForm";
 import Analytics from "../componenets/analytics/Analytics";
 const RouterConfig = () => {
   return (

@@ -4,49 +4,55 @@ import { FaMapMarkerAlt } from "react-icons/fa";
 import { TiWeatherPartlySunny } from "react-icons/ti";
 import aicteLogo from "../../assets/aictelogo.png";
 import "./Header.css";
+import VirtualKeyboard from "../login/VirtualKeyboard";
 const Header = () => {
   return (
-    <div
-      className="d-flex align-items-center justify-content-evenly p-2"
-      id="main-header"
-    >
-      <div className="d-flex align-items-center justify-content-evenly main-logo">
-        <img src={aicteLogo} alt="aictelogo" />
-        <h2 className="mx-2 p-0">AICTE</h2>
-        <span className="vertical-main-bar"></span>
-        <div className="mx-0">
-          <p className="m-0 p-0 small">
-            All India Council for Technical Education
-          </p>
-          <p className="m-0 p-0 small">अखिल भारतीय तकनीकी शिक्षा परिषद</p>
-        </div>
-      </div>
+    <>
       <div
-        className="d-flex align-items-center justify-content-evenly p-3"
-        style={{ color: "#545454" }}
+        className="d-flex align-items-center justify-content-evenly p-2"
+        id="main-header"
       >
-        <div className="d-flex align-items-center justify-content-evenly">
-          <GiSmartphone size={22} />
-          1800 12345
+        <div className="d-flex align-items-center justify-content-evenly main-logo">
+          <img src={aicteLogo} alt="aictelogo" />
+          <h2 className="mx-2 p-0">AICTE</h2>
+          <span className="vertical-main-bar"></span>
+          <div className="mx-0">
+            <p className="m-0 p-0 small">
+              All India Council for Technical Education
+            </p>
+            <p className="m-0 p-0 small">अखिल भारतीय तकनीकी शिक्षा परिषद</p>
+          </div>
         </div>
-        <span className="vertical-bar"></span>
-
         <div
-          className="d-flex align-items-center justify-content-evenly m-0 p-0"
-          style={{
-            borderWidth: "2px",
-          }}
+          className="d-flex align-items-center justify-content-evenly p-3"
+          style={{ color: "#545454" }}
         >
-          <FaMapMarkerAlt />
-          Dhanbad, Jharkhand
-        </div>
-        <span className="vertical-bar"></span>
-        <div className="d-flex align-items-center justify-content-evenly">
-          <TiWeatherPartlySunny />
-          24&#8451;/75&#8457;
+          <div className="d-flex align-items-center justify-content-evenly">
+            <GiSmartphone size={22} />
+            1800 12345
+          </div>
+          <span className="vertical-bar"></span>
+
+          <div
+            className="d-flex align-items-center justify-content-evenly m-0 p-0"
+            style={{
+              borderWidth: "2px",
+            }}
+          >
+            <FaMapMarkerAlt />
+            Dhanbad, Jharkhand
+          </div>
+          <span className="vertical-bar"></span>
+          <div className="d-flex align-items-center justify-content-evenly">
+            <TiWeatherPartlySunny />
+            24&#8451;/75&#8457;
+          </div>
         </div>
       </div>
-    </div>
+      <div className="d-flex align-item-center justify-content-center m-2 ">
+        <VirtualKeyboard />
+      </div>
+    </>
   );
 };
 

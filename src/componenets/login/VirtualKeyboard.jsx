@@ -89,7 +89,7 @@ export default function VirtualKeyboard() {
       <div
         id="osk-keyboard"
         ref={keyboardRef}
-        style={{ display: "none" }}
+        style={{ display: "flex" }}
         onClick={displayOSK}
       >
         <Keyboard
