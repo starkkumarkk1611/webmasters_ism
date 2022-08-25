@@ -6,6 +6,7 @@ import "./welcome.css";
 import SmallCard from "./smallCard";
 import { FaGreaterThan } from 'react-icons/fa';
 import React, { useEffect, useState } from "react";
+import TopComp from "./TopComp";
 
 const useDeviceDetect = () => {
   const [width, setWidth] = useState(window.innerWidth);
@@ -43,6 +44,7 @@ function Welcome() {
   return (
     <Container style={{ height: "fit-content" }}>
       <Row>
+        <TopComp />
         <Col sm={12} lg={6} >
           <div className="quickLinks">
             <h3 className="head_ql">Quick Links</h3>
