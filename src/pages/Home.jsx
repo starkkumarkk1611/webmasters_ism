@@ -5,6 +5,13 @@ import Gallary from "../componenets/Gallary/Gallery";
 import Welcome from "../componenets/welcome/Welcome";
 import Hero from "../componenets/hero/Hero";
 import MainMenu from "../utils/CONSTANTS/NavMenuData";
+import Eminent from "../componenets/Eminent/Eminent";
+import Initiatives from "./initiatives/Initiatives";
+import Leadership from "./leadership/Leadership";
+import Bureas from "./bureas/Bureas";
+import About from "./aboutUs/History";
+import Initiative from "../componenets/Initiative/Initiative";
+// import MultipleCarousel from "../componenets/MultipleCarousel/MultipleCarousel";
 const Home = () => {
   // const barbara = {
   //   name: "Barbara Palvin",
@@ -16,8 +23,10 @@ const Home = () => {
       <NavBar navItems={MainMenu} />
       <Hero />
       <Welcome />
-
-      <Gallary />
+      {/* <MultipleCarousel /> */}
+      {/* <Gallary /> */}
+      <Eminent />
+      <Initiative />
       <Footer />
     </div>
   );
