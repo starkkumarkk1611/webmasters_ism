@@ -8,6 +8,7 @@ import Leadership from "../pages/leadership/Leadership";
 import InitiativesPage from "../pages/initiatives/Initiatives";
 import LoginForm from "../componenets/VirtualKeyBoards/LoginForm";
 import Analytics from "../componenets/analytics/Analytics";
+import Search from "../pages/Search/Search";
 const RouterConfig = () => {
   return (
     <Routes>
@@ -21,6 +22,7 @@ const RouterConfig = () => {
       <Route path="leadership" element={<Leadership />} />
       <Route path="loginForm" element={<LoginForm />} />
       <Route path="analytics" element={<Analytics />} />
+      <Route path="search" element={<Search />} />
     </Routes>
   );
 };
