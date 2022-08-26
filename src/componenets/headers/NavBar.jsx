@@ -1,11 +1,10 @@
 import React, { useRef, useEffect, useState } from "react";
 import "./NavBar.css";
 import { AiFillHome } from "react-icons/ai";
-
+import { useTranslation } from "react-i18next";
 import { BsChevronCompactDown } from "react-icons/bs";
 import { Link } from "react-router-dom";
 import MainMenu from "../../utils/CONSTANTS/NavMenuData";
-import { useTranslation } from "react-i18next";
 
 const NavBar = ({ navItems = MainMenu }) => {
   const { t } = useTranslation(["home"]);

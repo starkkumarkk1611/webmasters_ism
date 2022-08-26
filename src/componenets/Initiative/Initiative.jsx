@@ -1,6 +1,5 @@
 import React from "react";
 import Cards from "../../componenets/Cards/BureauCard";
-import Cards2 from "../../componenets/Cards/initCard";
 import img from "../../assets/cardImg.png";
 import img3 from "../../assets/womEmp.png";
 import img4 from "../../assets/disable.png";

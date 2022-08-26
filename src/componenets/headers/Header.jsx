@@ -18,7 +18,7 @@ const Header = () => {
         <span className="vertical-main-bar"></span>
         <div className="mx-0">
           <p className="m-0 p-0 small">
-            {t("allindiacouncilfortechnicaleducation")}
+            All India Council for Technical Education
           </p>
           <p className="m-0 p-0 small">अखिल भारतीय तकनीकी शिक्षा परिषद</p>
         </div>
@@ -29,7 +29,7 @@ const Header = () => {
       >
         <div className="d-flex align-items-center justify-content-evenly">
           <GiSmartphone size={22} />
-          {t("helplinenumber")}
+          1800 12345
         </div>
         <span className="vertical-bar"></span>
 

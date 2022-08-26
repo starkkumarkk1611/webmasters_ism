@@ -1,9 +1,7 @@
-import React from 'react'
+import React from "react";
 
-const quickLink = () => {
-  return (
-    
-  )
-}
+const QuickLink = () => {
+  return <></>;
+};
 
-export default quickLink
+export default QuickLink;

@@ -1,33 +1,31 @@
 import Container from "react-bootstrap/Container";
 import Row from "react-bootstrap/Row";
 import Col from "react-bootstrap/Col";
-import Button from "react-bootstrap/Button";
 import "./welcome.css";
-import SmallCard from "./smallCard";
 import { FaGreaterThan } from 'react-icons/fa';
-import React, { useEffect, useState } from "react";
+import React from "react";
 import TopComp from "./TopComp";
 
-const useDeviceDetect = () => {
-  const [width, setWidth] = useState(window.innerWidth);
-  const handleWindowResize = () => {
-    setWidth(window.innerWidth);
-  };
+// const useDeviceDetect = () => {
+//   const [width, setWidth] = useState(window.innerWidth);
+//   const handleWindowResize = () => {
+//     setWidth(window.innerWidth);
+//   };
 
-  useEffect(() => {
-    window.addEventListener("resize", handleWindowResize);
-    return () => {
-      window.removeEventListener("resize", handleWindowResize);
-    };
-  }, []);
+//   useEffect(() => {
+//     window.addEventListener("resize", handleWindowResize);
+//     return () => {
+//       window.removeEventListener("resize", handleWindowResize);
+//     };
+//   }, []);
 
-  return width <= 900;
-};
-var buttonArr = [
-  "PGDM Student Verification",
-  "Approval process 2022-23",
-  "Centralized Support System",
-];
+//   return width <= 900;
+// };
+// var buttonArr = [
+//   "PGDM Student Verification",
+//   "Approval process 2022-23",
+//   "Centralized Support System",
+// ];
 var quickLinksArr = [
   "Student Learning Assessment-PARAKH|",
   "Student Learning Assessment-PARAKH|",
@@ -53,7 +51,7 @@ function Welcome() {
                 return (
                   <li className="ql-li" key={`quicklink-${index}`}>
                     <FaGreaterThan />
-                    <a href="#"> {ql}</a>
+                    <a href="!#"> {ql}</a>
                   </li>
                 )
               })}
@@ -68,7 +66,7 @@ function Welcome() {
                 return (
                   <li className="ql-li" key={`quicklink2-${index}`} >
                     <FaGreaterThan />
-                    <a href="#"> {ql}</a>
+                    <a href="!#"> {ql}</a>
                   </li>
                 )
               })}

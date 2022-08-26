@@ -1,5 +1,4 @@
 import React, { useRef, useState, useEffect } from "react";
-import ReactDOM from "react-dom";
 import Keyboard from "react-simple-keyboard";
 import "react-simple-keyboard/build/css/index.css";
 
@@ -24,7 +23,7 @@ export default function VirtualKeyboard() {
     [...window.document.getElementsByTagName("input")].forEach((input) => {
       input.addEventListener("focus", displayOSK);
     });
-    window.addEventListener("click", function (e) {
+    window.addEventListener("click", function(e) {
       console.log(e.target.tagName);
       if (
         !keyboardRef.current.contains(e.target) &&
