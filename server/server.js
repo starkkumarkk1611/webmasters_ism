@@ -4,9 +4,11 @@ const app = express();
 const connectDB = require('./config/db')
 const bodyParser = require('body-parser')
 const authrouter = require('./routes/farmer');
+const searchRouter = require('./routes/search');
 const client = require('./routes/client');
 const { join } = require("path");
 const cors = require("cors");
+
 
 connectDB();
 app.use(cors());
@@ -21,6 +23,8 @@ app.use(bodyParser.json());
 app.use(express.json());
 
 app.use("/api", authrouter);
+app.use("/search", searchRouter);
+
 
 
 

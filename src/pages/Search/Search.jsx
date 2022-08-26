@@ -1,4 +1,4 @@
-import React, { useRef } from "react";
+import React, { useRef, useState } from "react";
 import "./Search.css";
 import Container from "react-bootstrap/Container";
 import Row from "react-bootstrap/Row";
@@ -7,6 +7,8 @@ import { MdKeyboardVoice } from "react-icons/md";
 import { AiFillCamera } from "react-icons/ai";
 import { BiSearchAlt } from "react-icons/bi";
 import { FaGreaterThan } from "react-icons/fa";
+
+import axios from "axios";
 
 var quickLinksArr = [
   "Student Learning Assessment-PARAKH|",
@@ -23,12 +25,19 @@ var quickLinksArr = [
 
 function Search() {
   // const customsearch = google.customsearch("v1");
+  const [searchData, setSearchData] = useState([]);
   const inputRef = useRef();
-  const handleSearchText = (e) => {
+  const handleSearchText = async (e) => {
+    e.preventDefault();
     const q = inputRef.current.value;
     console.log(q);
-    e.preventDefault();
-    console.log(inputRef.current.value);
+    const res = await axios.get("http://localhost:3001/search", {
+      params: {
+        q: q,
+      },
+    });
+    setSearchData(res.data.items);
+    console.log("res", res);
   };
 
   return (
@@ -39,7 +48,7 @@ function Search() {
           ref={inputRef}
           placeholder="Search"
         ></input>
-        <button type="submit">
+        <button type="submit" className="btn-link border-0">
           <BiSearchAlt size="2vw" style={{ margin: "0px 10px" }} />
         </button>
         <a href="!#">
@@ -55,18 +64,14 @@ function Search() {
       <Container>
         <Row>
           <Col sm={12} lg={8}>
-            <div className="cardSearch">
-              <h4 className="pad pad1">Head</h4>
-              <p className="pad">
-                Lorem Ipsum is simply dummy text of the printing and typesetting
-                industry. Lorem Ipsum has been
-              </p>
-              <br />
-              <button className="btnSearch">Learn More</button>
-              <br />
-            </div>
+            {searchData.map(({ link, snippet, title }) => (
+              <a href={link} className="cardSearch">
+                <h4 className="pad pad1">{title}</h4>
+                <p className="pad">{snippet}</p>
+              </a>
+            ))}
           </Col>
-          <Col sm={12} lg={4}>
+          {/* <Col sm={12} lg={4}>
             <div className="quickLinks1">
               <h3 className="head_ql1">Quick Links</h3>
               <ul className="ql1">
@@ -82,7 +87,7 @@ function Search() {
                 })}
               </ul>
             </div>
-          </Col>
+          </Col> */}
         </Row>
       </Container>
     </div>

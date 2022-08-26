@@ -6,3 +6,4 @@ bad,bored,tired,sad
 tell me story,tell me joke
 thanks,thank you
 bye,good bye,goodbye
+aicte,what is aicte?
