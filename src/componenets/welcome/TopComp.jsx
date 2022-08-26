@@ -36,7 +36,7 @@ function ResponsiveAutoExample() {
           <img src={ img2} alt="aictelogo" className="imgT" />
          
         </Col>
-        <Col md={4} lg={2}>
+        <Col className="mb-5" md={4} lg={2}>
           <img src={ img3} alt="aictelogo" className="imgT"  />
          
         </Col>

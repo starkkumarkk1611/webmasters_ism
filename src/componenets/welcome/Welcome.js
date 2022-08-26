@@ -4,9 +4,10 @@ import Col from "react-bootstrap/Col";
 import Button from "react-bootstrap/Button";
 import "./welcome.css";
 import SmallCard from "./smallCard";
-import { FaGreaterThan } from 'react-icons/fa';
+import angle from "../../assets/welcome/Angle.png";
 import React, { useEffect, useState } from "react";
 import TopComp from "./TopComp";
+import { FaGreaterThan } from "react-icons/fa";
 
 const useDeviceDetect = () => {
   const [width, setWidth] = useState(window.innerWidth);
@@ -29,16 +30,22 @@ var buttonArr = [
   "Centralized Support System",
 ];
 var quickLinksArr = [
-  "Student Learning Assessment-PARAKH|",
-  "Student Learning Assessment-PARAKH|",
-  "Approval Process 2022-23",
-  "ODL and Online Regulatory Framework|",
-  "PMSSS J&K|",
-  "Policies & Reforms|",
-  "FDP-SI Web portal",
-  "AICTE FIT India Challenge",
-  "AICTE KARMA",
-  "Academic Leaders' Conclave",
+  "DigitalSkilling 1 Crore Students",
+  "AICTE Internship Portal",
+  "Cyber Secutity Awareness",
+  "AICT-AI Language tRANSLATION Tool",
+  "Approval process 2022-23",
+  "ATAL Academy",
+  "ODL and Online Regulatory Framework"
+];
+var quickLinksArr2 = [
+  "DigitalSkilling 1 Crore Students",
+  "AICTE Internship Portal",
+  "Cyber Secutity Awareness",
+  "AICT-AI Language tRANSLATION Tool",
+  "Approval process 2022-23",
+  "ATAL Academy",
+  "ODL and Online Regulatory Framework"
 ];
 function Welcome() {
   return (
@@ -52,8 +59,8 @@ function Welcome() {
                   {quickLinksArr.map((ql, index) => {
                     return (
                       <li className="ql-li">
-                        <FaGreaterThan />
-                        <a href="#"> {ql}</a>
+                      <img className="me-2" src={angle} al="angle" />
+                        <a href="#">{ql}</a>
                       </li>
                     )
                   })}
@@ -62,13 +69,13 @@ function Welcome() {
           </Col>
           <Col sm={12} lg={6}>
           <div className="quickLinks">
-                <h3 className="head_ql">Quick Links</h3>
+                <h3 className="head_ql">Announcement</h3>
                 <ul className="ql">
-                  {quickLinksArr.map((ql, index) => {
+                  {quickLinksArr2.map((ql, index) => {
                     return (
                       <li className="ql-li">
-                      <FaGreaterThan />
-                        <a href="#"> {ql}</a>
+                      <img className="me-2" src={angle} al="angle" />
+                        <a href="#">{ql}</a>
                       </li>
                     )
                   })}

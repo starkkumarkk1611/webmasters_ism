@@ -1,69 +1,5 @@
-.frame-1 {
-    height: 382px;
-    width: 1512px;
-  }
-  .text-1 {
-    text-align: left;
-    vertical-align: middle;
-    font-size: 15.899999618530273px;
-    font-family: Raleway;
-    letter-spacing: -0.5%;
-    line-height: auto;
-    color: #ffffff;
-  }
-  .text-2 {
-    text-align: justify;
-    vertical-align: middle;
-    font-size: 24px;
-    font-family: Roboto;
-    line-height: auto;
-    color: #ffffff;
-  }
-  .img-3 {
-    height: 97px;
-    width: 97px;
-  }
-  .text-4 {
-    text-align: justify;
-    vertical-align: top;
-    font-size: 16px;
-    font-family: Roboto;
-    line-height: auto;
-    color: #ffffff;
-  }
-  .text-5 {
-    text-align: left;
-    vertical-align: top;
-    font-size: 13.5px;
-    font-family: Roboto;
-    line-height: auto;
-    color: #ffffff;
-  }
-  .img-6 {
-    height: 16px;
-    width: 109px;
-  }
-  .line-2-7 {
-    transform: rotate(-90deg);
-    height: 0px;
-    width: 138px;
-    border: 3px solid #f75700;
-  }
-  .line-2-8 {
-    transform: rotate(-90deg);
-    height: 0px;
-    width: 138px;
-    border: 3px solid #f75700;
-  }
-  .line-2-9 {
-    transform: rotate(-90deg);
-    height: 0px;
-    width: 138px;
-    border: 3px solid #f75700;
-  }
-  .eminent{
-    margin: 5vw 0;
-}
+
+
 .eminent_head{
     color: #02428C;
     margin-left: 5vw;
@@ -75,12 +11,11 @@
   border-width: 3px;
 }
 .imgInit{
-  margin-top: -40px;
+  margin-top: 15px;
 }
 
 @media only screen and (max-width: 990px) {
   .imgInit{
-    margin-top: 20px;
+    width: 80vw;
   }
-  
 }

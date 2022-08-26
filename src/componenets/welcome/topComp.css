@@ -1,15 +1,16 @@
 .quickLinks1{
     /* position:absolute; */
-    width: 70%;
+    width: 60%;
     height: fit-content;
     background-color: #02428C;
     color: white;
     border-radius: none;
+    z-index: 10;
     margin-left:0px;
 }
 .welcome1{
     position: absolute;
-    padding-bottom: 10vh;
+    /* padding-bottom: 10vh; */
 }
 .ql1{
     padding: 16px;
@@ -18,16 +19,16 @@
     font-family: Roboto,sans-serif;
     list-style: none;
     text-align: left;
+    font-weight: 100;
 }
 .ql1-li{
-    font-weight: 200;
     margin-bottom: 5px;
 }
 .head_ql1{
     text-align: center;
     padding-top: 10px;
     font-family: Roboto,sans-serif;
-    font-size: 20px;
+    font-size:  1.5em;
 }
 
   .quickLinks11{
@@ -59,7 +60,17 @@
         margin: auto;
     }
     .imgT{
-        width: 30%;
-        margin: 0 20vw;
+        width: 50%;
+        margin: 0 25%;
+    }
+    .welcome1{
+        margin: 0 15%;
+    }
+  }
+
+  @media only screen and (max-width: 700px) {
+    .quickLinks1{
+        width: 70%;
+        margin: auto;
     }
   }

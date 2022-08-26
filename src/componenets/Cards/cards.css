@@ -122,3 +122,13 @@ position: relative;
 .leader-card-description>p {
     margin: 0;
 }
+
+@media only screen and (max-width: 990px) {
+    .card{
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;
+        /* width: 70%; */
+    }
+
+  }

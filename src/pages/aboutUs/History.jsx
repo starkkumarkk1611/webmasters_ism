@@ -1,6 +1,7 @@
 import React from "react";
 import Footer from "../../componenets/footer/Footer";
 import NavBar from "../../componenets/headers/NavBar";
+import nwg from "../../assets/about.png";
 import "./About.css";
 export default function History() {
   return (
@@ -100,7 +101,7 @@ export default function History() {
 
         <div className="about_section_3">
           <div className="left_part_3">
-            <img src="" alt="" />
+            <img alt="" />
           </div>
           <div className="right_part_3">
             <h2 className="title">Role of National Working Group</h2>

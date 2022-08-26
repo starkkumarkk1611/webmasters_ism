@@ -1,6 +1,7 @@
 import React from 'react';
 import Carousel from 'react-bootstrap/Carousel';
-import img from '../../assets/bhaba.png'
+import bhaba from '../../assets/bhaba.png'
+import raman from "../../assets/raman.jpg";
 import "./eminent.css";
 function UncontrolledExample() {
   return (
@@ -11,22 +12,15 @@ function UncontrolledExample() {
       <Carousel.Item>
         <img
           className="d-block w-100"
-          src={img}
+          src={bhaba}
           alt="First slide"
         />
       </Carousel.Item>
       <Carousel.Item>
         <img
           className="d-block w-100"
-          src={img}
+          src={raman}
           alt="Second slide"
-        />
-      </Carousel.Item>
-      <Carousel.Item>
-        <img
-          className="d-block w-100"
-          src={img}
-          alt="Third slide"
         />
       </Carousel.Item>
     </Carousel>

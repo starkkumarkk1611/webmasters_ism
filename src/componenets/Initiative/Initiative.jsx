@@ -9,6 +9,7 @@ import Container from 'react-bootstrap/Container';
 import Row from 'react-bootstrap/Row';
 import Col from 'react-bootstrap/Col';
 import img2 from "../../assets/initAs.png";
+import "./initiative.css";
 
 const BureasData = [
     {
@@ -96,7 +97,7 @@ function Initiative() {
     <Row>
     {BureasData.map(
             ({ title, heading, profile, description, imgSrc }, index) => (
-              <Col xs={12} md={6} lg={3} key={index}>
+              <Col style={{padding:"10px"}} xs={8} md={6} lg={3} key={index}>
                 <Cards
                   title={title}
                   heading={heading}
@@ -107,7 +108,7 @@ function Initiative() {
               </Col>
             )
           )}
-      <Col lg={6}>
+      <Col style={{justifyContent:"center"}} md={12} lg={6}>
         <img className='imgInit' src={img2} alt="img2" />
       </Col>;
     </Row>
@@ -115,7 +116,7 @@ function Initiative() {
     <Row >
     {BureasData2.map(
             ({ title, heading, profile, description, imgSrc }, index) => (
-              <Col xs={12} md={6} lg={3} key={index}>
+              <Col className='mb-4' xs={12} md={6} lg={3} key={index}>
                 <Cards
                   title={title}
                   heading={heading}
@@ -129,12 +130,12 @@ function Initiative() {
     </Row>
     <br />
     <br />
-    <Row>
+    <Row className='rowInit'>
     {BureasData3.map(
             ({ title, heading, profile, description, imgSrc }, index) => (
               <>
-              <Col style={{paddingBottom : "3vw"}} s={12} md={5} lg={3} key={index}>
-                <img src={imgSrc} alt="img2" />
+              <Col style={{paddingBottom : "3vw", display: "flex", justifyContent:"center"}} s={10} md={5} lg={3} key={index}>
+                <img className='imgInit' src={imgSrc} alt="img2" />
               </Col>
               <Col s={1} md={0} lg={1} key={index}>
               </Col>
