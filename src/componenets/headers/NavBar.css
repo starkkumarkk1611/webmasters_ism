@@ -15,6 +15,7 @@
     padding:0.9em 1em;
     font-weight: 500;
     height: 100%;
+    
     margin: 0;
     /* border: 2px solid black; */
 }
@@ -30,18 +31,30 @@
 }
 .dropDown{
     position: absolute;
-    display: none;
+    margin-top: 0rem;
+    display: flex;
     flex-direction: column;
     color: black;
     overflow: auto;
     background-color: white;
+    border-radius: 4px;
+    column-count: 2;
+    column-gap: 0.5vw;
+
 }
 .dropDown .drop-down-items:hover{
-    background-color: #F75700;
-    color: white;
+    background-color: red;
+    color: white ;
+    padding-left: 5px;
 }
 
 .label_navlink {
-    
-   
+    padding: 10px 20px 10px;
+   color:black;
+}
+.small{
+color: black;
+}
+.small:hover{
+    color:white;
 }

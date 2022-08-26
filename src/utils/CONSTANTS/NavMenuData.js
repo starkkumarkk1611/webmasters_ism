@@ -4,31 +4,37 @@ const MainMenu = [{
     dropDownItems: [
         {
             label: "Overview",
-            desc: "Read about the apex body of Technical Education in India",
+            // desc: "Read about the apex body of Technical Education in India",
             href: null,
             to: "/about-us/overview",
         },
         {
             label: "Leadership Team",
-            desc: "Learn about the team that make it out",
+            // desc: "Learn about the team that make it out",
             href: null,
             to: "overview",
         },
         {
-            label: "Overview",
-            desc: "Read about apex body of techincal education in India",
+            label: "Messages",
+            // desc: "Key message from diginitaries",
             href: null,
             to: "overview",
         },
         {
-            label: "Overview",
-            desc: "Read about apex body of techincal education in India",
+            label: "History",
+            // desc: "The beginning of Technical Education In India",
             href: null,
             to: "overview",
         },
         {
-            label: "Overview",
-            desc: "Read about apex body of techincal education in India",
+            label: "Organisation structure",
+            // desc: "know more about organisation structure",
+            href: null,
+            to: "overview",
+        },
+        {
+            label: "Offices",
+            // desc: "Explore our Offices",
             href: null,
             to: "overview",
         },
@@ -39,32 +45,38 @@ const MainMenu = [{
     to: "/news-room",
     dropDownItems: [
         {
-            label: "news",
-            desc: "Read about apex body of techincal education in India",
+            label: "Overview",
+            // desc: "News And Press Releases",
             href: null,
             to: "overview",
         },
         {
-            label: "Overview",
-            desc: "Read about apex body of techincal education in India",
+            label: "Press Release",
+            // desc: "Read our Communication to the Press",
             href: null,
             to: "overview",
         },
         {
-            label: "Overview",
-            desc: "Read about apex body of techincal education in India",
+            label: "Video Gallery",
+            // desc: "Enjoy the videos from the world of AICTE",
             href: null,
             to: "overview",
         },
         {
-            label: "Overview",
-            desc: "Read about apex body of techincal education in India",
+            label: "News",
+            // desc: "AICTE in the news",
             href: null,
             to: "overview",
         },
         {
-            label: "Overview",
-            desc: "Read about apex body of techincal education in India",
+            label: "Image Gallery",
+            // desc: "Explore glimpses of key events",
+            href: null,
+            to: "overview",
+        },
+        {
+            label: "Events",
+            // desc: "Explore our upcoming  events",
             href: null,
             to: "overview",
         },
@@ -76,32 +88,38 @@ const MainMenu = [{
     to: "/bureas",
     dropDownItems: [
         {
-            label: "bureas",
-            desc: "Read about apex body of techincal education in India",
+            label: "Overview",
+           
             href: null,
             to: "overview",
         },
         {
-            label: "Overview",
-            desc: "Read about apex body of techincal education in India",
+            label: "Policy And Academic Planning",
+            
             href: null,
             to: "overview",
         },
         {
-            label: "Overview",
-            desc: "Read about apex body of techincal education in India",
+            label: "Finance",
+           
             href: null,
             to: "overview",
         },
         {
-            label: "Overview",
-            desc: "Read about apex body of techincal education in India",
+            label: "Approval",
+           
             href: null,
             to: "overview",
         },
         {
-            label: "Overview",
-            desc: "Read about apex body of techincal education in India",
+            label: "Administration",
+            
+            href: null,
+            to: "overview",
+        },
+        {
+            label: "Cells",
+            
             href: null,
             to: "overview",
         },
@@ -113,32 +131,74 @@ const MainMenu = [{
     to: "/initiative",
     dropDownItems: [
         {
-            label: "Initiative",
-            desc: "Read about apex body of techincal education in India",
+            label: "Overview",
+            // desc: "Read about apex body of techincal education in India",
             href: null,
             to: "overview",
         },
         {
-            label: "Overview",
-            desc: "Read about apex body of techincal education in India",
+            label: "Clean And Smart Campus Award",
+            // desc: "Read about apex body of techincal education in India",
             href: null,
             to: "overview",
         },
         {
-            label: "Overview",
-            desc: "Read about apex body of techincal education in India",
+            label: "Smart India Hackathon",
+            // desc: "Read about apex body of techincal education in India",
             href: null,
             to: "overview",
         },
         {
-            label: "Overview",
-            desc: "Read about apex body of techincal education in India",
+            label: "Startup Contest",
+            // desc: "Read about apex body of techincal education in India",
             href: null,
             to: "overview",
         },
         {
-            label: "Overview",
-            desc: "Read about apex body of techincal education in India",
+            label: "Student Learning Assessment",
+            // desc: "Read about apex body of techincal education in India",
+            href: null,
+            to: "overview",
+        },
+        {
+            label: "Startup Contest",
+            // desc: "Read about apex body of techincal education in India",
+            href: null,
+            to: "overview",
+        },
+        {
+            label: "Student Learning Assessment",
+            // desc: "Read about apex body of techincal education in India",
+            href: null,
+            to: "overview",
+        },
+        {
+            label: "SWAYAM",
+            
+            href: null,
+            to: "overview",
+        },
+        {
+            label: "AICTE Vishwakarma Award",
+           
+            href: null,
+            to: "overview",
+        },
+        {
+            label: "National Education Alliance For Technology",
+            
+            href: null,
+            to: "overview",
+        },
+        {
+            label: "AICTE-CII Indian Innovation Initaiative",
+            
+            href: null,
+            to: "overview",
+        },
+        {
+            label: "Jal Shakti Abhiyan",
+           
             href: null,
             to: "overview",
         },
@@ -148,108 +208,190 @@ const MainMenu = [{
     labellngkey: "schemes",
     to: "/schemes",
     dropDownItems: [
-        {
-            label: "schemes",
-            desc: "Read about apex body of techincal education in India",
-            href: null,
-            to: "overview",
-        },
+       
         {
             label: "Overview",
-            desc: "Read about apex body of techincal education in India",
+           
             href: null,
             to: "overview",
         },
         {
-            label: "Overview",
-            desc: "Read about apex body of techincal education in India",
+            label: "Faculty Development Schemes",
+            // desc: "Read about apex body of techincal education in India",
             href: null,
             to: "overview",
         },
         {
-            label: "Overview",
-            desc: "Read about apex body of techincal education in India",
+            label: "Research and Innovation Development Schemes",
+            // desc: "Read about apex body of techincal education in India",
             href: null,
             to: "overview",
         },
         {
-            label: "Overview",
-            desc: "Read about apex body of techincal education in India",
+            label: "Student Development Schemes",
+            // desc: "Read about apex body of techincal education in India",
             href: null,
             to: "overview",
         },
+        {
+            label: "Institutional Development Schemes",
+            // desc: "Read about apex body of techincal education in India",
+            href: null,
+            to: "overview",
+        },
+        {
+            label: "General Schemes",
+            // desc: "Read about apex body of techincal education in India",
+            href: null,
+            to: "overview",
+        },
+        
     ],
 },
 {
     labellngkey: "education",
     to: "/education",
     dropDownItems: [
+       
         {
-            label: "education",
-            desc: "Read about apex body of techincal education in India",
+            label: "Overview",
+            
             href: null,
             to: "overview",
         },
         {
-            label: "Overview",
-            desc: "Read about apex body of techincal education in India",
+            label: "Community Colleges",
+           
             href: null,
             to: "overview",
         },
         {
-            label: "Overview",
-            desc: "Read about apex body of techincal education in India",
+            label: "IT & ICT in Education",
+            
             href: null,
             to: "overview",
         },
         {
-            label: "Overview",
-            desc: "Read about apex body of techincal education in India",
+            label: "Collaborations",
+            
             href: null,
             to: "overview",
         },
         {
-            label: "Overview",
-            desc: "Read about apex body of techincal education in India",
+            label: "Distance Education",
+           
+            href: null,
+            to: "overview",
+        },
+        {
+            label: "Model Syllabus & SUGG. Books",
+            
+            href: null,
+            to: "overview",
+        },
+        {
+            label: "Finishing Schools",
+            
+            href: null,
+            to: "overview",
+        },
+        {
+            label: "Key Institutions",
+           
+            href: null,
+            to: "overview",
+        },
+        {
+            label: "Library Services",
+            
+            href: null,
+            to: "overview",
+        },
+        {
+            label: "Finishing Schools",
+            
+            href: null,
+            to: "overview",
+        },
+        {
+            label: "Vocational Institution",
+           
+            href: null,
+            to: "overview",
+        },
+        {
+            label: "Best Practices In Institutes",
+           
+            href: null,
+            to: "overview",
+        },
+        {
+            label: "Policies & Reforms",
+           
             href: null,
             to: "overview",
         },
     ],
 },
+// {
+//     labellngkey: "Opportunities",
+//     to: "/opportunities",
+//     dropDownItems: [
+//         {
+//             label: "For Student",
+            
+//             href: null,
+//             to: "overview",
+//         },
+//         {
+//             label: "For Faculty",
+           
+//             href: null,
+//             to: "overview",
+//         },
+//         {
+//             label: "For Institution",
+           
+//             href: null,
+//             to: "overview",
+//         },
+        
+//     ],
+// },
 {
     labellngkey: "statistics",
     to: "/statistics",
     dropDownItems: [
-        {
-            label: "statisitics",
-            desc: "Read about apex body of techincal education in India",
-            href: null,
-            to: "overview",
-        },
-        {
-            label: "Overview",
-            desc: "Read about apex body of techincal education in India",
-            href: null,
-            to: "overview",
-        },
-        {
-            label: "Overview",
-            desc: "Read about apex body of techincal education in India",
-            href: null,
-            to: "overview",
-        },
-        {
-            label: "Overview",
-            desc: "Read about apex body of techincal education in India",
-            href: null,
-            to: "overview",
-        },
-        {
-            label: "Overview",
-            desc: "Read about apex body of techincal education in India",
-            href: null,
-            to: "overview",
-        },
+        // {
+        //     label: "statisitics",
+          
+        //     href: null,
+        //     to: "overview",
+        // },
+        // {
+        //     label: "Overview",
+            
+        //     href: null,
+        //     to: "overview",
+        // },
+        // {
+        //     label: "Overview",
+            
+        //     href: null,
+        //     to: "overview",
+        // },
+        // {
+        //     label: "Overview",
+           
+        //     href: null,
+        //     to: "overview",
+        // },
+        // {
+        //     label: "Overview",
+            
+        //     href: null,
+        //     to: "overview",
+        // },
     ],
 },
 {
@@ -257,32 +399,38 @@ const MainMenu = [{
     to: "/bulletins",
     dropDownItems: [
         {
-            label: "buletins",
-            desc: "Read about apex body of techincal education in India",
+            label: "Overview",
+           
             href: null,
             to: "overview",
         },
         {
-            label: "Overview",
-            desc: "Read about apex body of techincal education in India",
+            label: "Circulars",
+            
             href: null,
             to: "overview",
         },
         {
-            label: "Overview",
-            desc: "Read about apex body of techincal education in India",
+            label: "Newsletter",
+           
             href: null,
             to: "overview",
         },
         {
-            label: "Overview",
-            desc: "Read about apex body of techincal education in India",
+            label: "Advertisements",
+           
             href: null,
             to: "overview",
         },
         {
-            label: "Overview",
-            desc: "Read about apex body of techincal education in India",
+            label: "Tenders",
+            
+            href: null,
+            to: "overview",
+        },
+        {
+            label: "Announcements",
+           
             href: null,
             to: "overview",
         },
